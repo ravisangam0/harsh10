@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | SD Digital Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo"><i class="fa-solid fa-bolt"></i> <span>SD</span> DIGITAL HUB</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      </div>
+      <button class="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section" style="padding-top: 160px;">
+      <div class="container">
+        
+        <div class="contact-layout">
+          <div class="fade-up">
+            <span class="hero-tag">CONTACT US</span>
+            <h2 style="font-size: 2.5rem; margin-bottom: 16px;">Let's Start a Project Together</h2>
+            <p style="color: var(--text-muted); margin-bottom: 40px;">Have a project in mind? Get in touch with us and let's create something amazing together.</p>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <h4 style="margin-bottom: 4px;">Phone</h4>
+                <p style="color: var(--text-muted);">+91 1234567890</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <h4 style="margin-bottom: 4px;">Email</h4>
+                <p style="color: var(--text-muted);">info@sddigitalhub.in</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <h4 style="margin-bottom: 4px;">Location</h4>
+                <p style="color: var(--text-muted);">Varanasi, Uttar Pradesh, India</p>
+              </div>
+            </div>
+            
+            <div style="margin-top: 40px;">
+              <h4 style="margin-bottom: 16px;">Follow Us</h4>
+              <div style="display: flex; gap: 16px; font-size: 1.2rem;">
+                <a href="#" style="background: var(--bg-surface); padding: 12px; border-radius: 8px; border: 1px solid var(--border-subtle);"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" style="background: var(--bg-surface); padding: 12px; border-radius: 8px; border: 1px solid var(--border-subtle);"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" style="background: var(--bg-surface); padding: 12px; border-radius: 8px; border: 1px solid var(--border-subtle);"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="fade-up">
+            <div class="card" style="margin-bottom: 32px;">
+              <form id="contactForm" novalidate>
+                <div class="form-group">
+                  <input type="text" id="name" class="form-control" placeholder="Your Name">
+                  <div class="error-msg"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" id="email" class="form-control" placeholder="Your Email">
+                  <div class="error-msg"></div>
+                </div>
+                <div class="form-group">
+                  <input type="tel" id="phone" class="form-control" placeholder="Your Phone (Optional)">
+                </div>
+                <div class="form-group">
+                  <textarea id="message" class="form-control" placeholder="Your Message"></textarea>
+                  <div class="error-msg"></div>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+              </form>
+            </div>
+
+            <div style="border-radius: 16px; overflow: hidden; border: 1px solid var(--border-subtle); height: 250px;">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115408.09799723048!2d82.90870631620023!3d25.320894901974127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2db76febcf4d%3A0x68131710853ff0b5!2sVaranasi%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 SD Digital Hub. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
